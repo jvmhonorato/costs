@@ -1,0 +1,37 @@
+/*Estilo da <footer>*/
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+/*Estilo da <ul>*/
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  /*Estilo da <li>*/
+}
+.social_list li {
+    margin:0 1em;
+
+}
+/* Estilo do hover do icons*/
+.social_list li:hover {
+    color: #FFBB33;
+    
+}
+/* Estilo do cursor e tamanho do icon*/
+.social_list svg {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+/* Estilos do <p> e do <span>  no roda pé*/
+.copy_right {
+    margin-top: 2em;
+}
+
+.copy_right span {
+    font-weight: bold;
+    color: #ffbb33
+}

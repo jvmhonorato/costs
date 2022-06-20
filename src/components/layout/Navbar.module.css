@@ -1,0 +1,25 @@
+/* Estilo da <nav>*/
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+}
+/* Estilo da <ul>*/
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+/* Estilo dos <li> item da Navbar*/
+.item a {
+    color: #fff;
+    text-decoration:  none;
+    padding: 1em;
+    
+}
+.item a:hover {
+    color: #FFBB33;
+    
+}

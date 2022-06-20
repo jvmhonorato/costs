@@ -1,0 +1,51 @@
+Aula 02: Introdução ao React.
+
+Aula 03: Aprendendo JSX funções básicas.
+
+Aula 04: Criando primeiro componente, HelloWord.js, depois criamos o componente Frase.js e importamos pra o HelloWord.js dessa forma criamos importações em serie. assim podemos importar um componente dentro de qualquer componente
+
+Aula 05: 1: criamos o componente SayMyName.js com uma função props como parâmetro, no retorno da função associamos props a name e chamamos ela no arquivo pai (App.js) aqui dentro da tag de retorno do componente. dessa fomra o componete pode ser chamadao em qualquer outro componente qual ele for importado.
+ 2: Criamos um component Pessoa.js com 4 diferente tipos de dados com o props e importamos pra o componente pai(App.js) atribuindo valores a serem renderizados
+
+ Aula 06: Nessa aula primeiramente alteramos estilos no index.css que é a configuração global, em seguida criamos um module.css do componente Frase.js pra mostrar que os module.css sobrepõe o arquivo global index.css em hierarquia
+
+ Aula 07: Criamos componente List.js e adcionamos 2 <li> dentro de uma <ul> em seguida crimos um componente Item.js com um props  depois importamos pra o componete List.js e chamamos no retunr o componente atribuindo um valor a propriedade
+
+ Aula 08: criamos props no Arquivo Item.js relacionando marca e ano de lançamento, depois importamos no List.js e atribuimos valores, também chamamos o modulo propType pra tipar a propriedae declarada como string, number bolean e etc tambem usamos o isRequired pra que a propriedade nao possa ser nula, criamos  tambem o defaultProps que serve pra tratar o component caso não houver valores atribuidos
+
+ Aula 09: 1:Criamos o componente Evento.js nele criamos um <button> com o evento onClick pra chamr uma função quando for acionado 2: Criamos tambem o componete Form.js nele criamos um formulario com o evento onSubmit e aprendemos que sempre devemos uasr ele em, conjunto com o preventDefault
+
+ Aula 10: Criamos um formulário mais completo no componete Form.js atribuindo propriedades todas elas envolvidas em uma tag <form> 2: importamos e craimos um state pra o nome e pra a senha em seguida chamamos o setState no evento onChange dentro do input correspndente a seu state
+
+ Aula 11: Nessa aula criamos o componente Button.js e nele criamos uma function  apenas uma tag <button onClick={props.event}>{props,text}</button> depois importamos no componente Evento.js onde reside a função a ser chamada e no return chamamos o componente atribuindo função e texto ao button.
+ O componte Button pode ser impotado pra qualquer componete e pode lhe ser atribuida qualque função, basta associala a propriedadde event.  
+
+ Aula 12: Nessa aula criamos o componente Condicional.js e nele adicionamos um fomulário de e-mail, usamos states e funçõs pra poder armazenar o email, renderizar o e-mail e limpar o e-mail. masi instruções no arquivo Condicional.js {state ou função && (ação a ser renderizada)}
+
+ Aula 13: Na aula 13 criamos componente OutraListas.js com a função props e a função .map() pra renderizar  a lista no html. Criamos tambem um segundo parâmetro index na função .map() e chamamos na propriedadw <p key={index}> na tag <p>, em seguida tambem criamos uma condicional ternaria caso não haja itens no array ele mandar uma mensagem ou renderizar a lista.  
+
+ Aula 14: Na aula 14 criamos o cmponente SeuNome.js com o evento onChange no input passando atravez de props o sn que por sua vez foi vinculado ao setName pra poder pegar o valor digitado, depois crimaos o componente Saudacao.js pra poder retorna tambem atravez de props o name que é a leitura do state obtido do setName que nada masi é que o valor digitado no input
+
+ Aula 15: 1:Na aula 15 apagamos todo o conteúdo das aulas anteriores pra executar as rotas em React começando instalando o pacote "npm install react-router-dom" e importando pra o App.js 2: Em seguida criamos uma no Return um mix de tags router, link e ul pra traçar a rota. criando as rotas depois criamos uma pasta em src chamada pages nela colocamos os componentes da pagina da aplicação Home.js,contato.js e Empresa.js depois de importarmos pra App.js criamos o modulo <Routes> dentro de <Router> e traçamos as rotas com <Route path="/ element={<Home>}/>">. 3: Depois criamos o componente Navbar OBS(importa modulo de link dentro do componente navBAr) recortamos todo o corpo da tag <ul> com <li> e Link dentro dela, colamos em navBar e depois importamos de volta pra o return de App.js 4:  Criamos uma pasta layout dentro de component e dentro dela cruiamos o componete Footer.js ne teemos o conteúdo do Rodapé que iremos adcionar depois de <Routes> dessa forma todas as páginas da aplicação carregarão o mesmo rodapé 5: Por ultimo criamos Navbar.module.css na pasta layout pra alterar o estilo do Navbar
+
+ Aula 16:Começamos instalando o pacote "npm install react-icons" 
+com o pacote instalado importamos no Componente Foote.js 
+2: criamos uma <ul> com <li> dentro dela chamando os icons depois disso criamos um Footer.module.css pra formatar o estilo da lista de icons e por final importamos o Footer.module.css pra o compponente Footer e associamos as classes css com className nas tags <u> e <li>
+
+Aula 17: Apresentação do curso de como será a aplicação
+
+Aula 18: 1:começando o projeto costs instalamos modulos:
+NPM INSTALL JSON-SERVER REACT-ICONS REACT-ROUTER-DOM UUID
+2: depois apagamos arquivos desnecessarios:
+setupTest.js, reportWebVitals.js, logo.svg, app.test.js e app.css
+3: depois configuramos estilos básicos da aplicação no index.css.
+4: EM seguida compiamos o link da font 'Open sans' no google fonts e colamos em index.html em baixo do <title> na pasta public
+5: puxamos 3 arquivos 2 svg e 1 png do repositorio, criamos ums pasta img em src e jogamos as imagens dentro
+6: E por ultimo baixamos o ico do repositorio e substituimos pelo favicon.ico original da pasta public.
+
+Aula 19:1:importamos em app.js o modulo BrowserRouter, 2:depois criamos as rotas das páginas, 3:em seguida criamos a pasta pages e inserimos os arquivos componentes Home.js Contact.js Company.js NewProject.js dentro dela, 4: importamos o modulo Link e associamos os links as rotas 5:criamos dentro de components uma pasta layouts e dentro dela Container.js, EM Container.js usamos um {props.chidren} e depois importamos Container.js no App.js e envolvemos a o compente routes com o container <Container><Routes></Routes></Container> 6: criamos Container.module.css pra dimencionar o container passamos tambem uma customClass com o props e chamamos no App.js no <Container customClass="min-height"> pra dimencionar ele globalmente
+
+Aula 20: criamos em layout Navbar.js, Footer.js Navbar.module.css e Footer.module.css 2: no Navba.js importamos o modulo de rotas, o modulo css, a logo 3: configuramos o Navbar.module.css e o Footer.module.css
+3: criamos o Project.js  e linkamos ao projeto, Descrição do que foi feito nos seus respectivos arquivos
+
+Aula 21: Criamos Home.module.css e configuramos o estilo da página css importamos o arquivo svg da pasta img pra  Home.js e configuramos o tamanho da img atravez do css 2: crimaos o componente LinkButton.js e LinkButton.module.css atribuimos o caminho do componene  Newproject.js ai button do componente LinkButton.js
