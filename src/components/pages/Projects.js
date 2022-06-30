@@ -4,7 +4,7 @@ import Message from "../layout/Message"
 import Container from '../layout/Container'
 import Loading from '../layout/Loading'
 import LinkButton from '../layout/LinkButton'
-import style from './Project.module.css'
+import style from './Projects.module.css'
 import ProjectCard from '../project/ProjectCard'
 import React from 'react'
 
@@ -38,6 +38,7 @@ export default function Projects(){
     },[])
 
           function removeProject(id) {
+            setProjectMessage('')
 
             fetch(`http://localhost:5000/projects/${id}`,{
               method:'DELETE',
