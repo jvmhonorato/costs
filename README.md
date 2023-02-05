@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+## Costs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Application to manage Projects costs
 
-In the project directory, you can run:
 
-### `npm start`
+## Technology 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Here are the technologies used in this project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React JS
+* CSS
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Services Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Github
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting started
 
-## Learn More
+* Dependency
+- Json-server
+- React-dom
+- React-icon
+- React-router-dom
+ 
+  
+  
+* To install the dependencies.
+  - npm install
+  
+* To run the project.
+  - BACKEND: npm run start
+  - FRONTEND: npm start
+  
+## How to use
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1 - Access main page and click "Criar Projeto" to fill the form
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![costs1](https://user-images.githubusercontent.com/101150943/216848909-0ddc7223-5d90-44fb-bb08-07f756d95c1e.jpg)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2 Fill in the form with the initial data of the project
 
-### Analyzing the Bundle Size
+![costs5](https://user-images.githubusercontent.com/101150943/216849227-3005dad2-e209-487d-95de-e8e56a140ad3.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 3 - CLick in "Criar Projeto" to create a new project and access  "project" in Navbar to see the project area.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![costs2](https://user-images.githubusercontent.com/101150943/216849338-50c0ed2c-b5b3-45be-b52e-821122ce3756.jpg)
 
-### Advanced Configuration
+### 4 - Click in "Editar" to edit the project adding or removing service according to current budget
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+![costs6](https://user-images.githubusercontent.com/101150943/216849752-a35ed480-eed6-4b8a-8b92-12bf8d476bc5.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### 5 - See in operation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://user-images.githubusercontent.com/101150943/216849866-868542b1-cdd4-46b8-8078-1796a32f1ea6.mp4
+
+
+## Features
+
+The main features of the application are:
+
+ - Use json-server to simulate a databank to make hte CRUD of the project
+ 
+  
+
+
+## Links
+  - Deploy on AWS: soon
+  - Repository: https://github.com/vituhonorato/costs
+    - In case of sensitive bugs like security vulnerabilities, please contact
+      vituhonorato.89@gmail.com directly instead of using issue tracker. We value your effort
+      to improve the security and privacy of this project!
+
+  ## Versioning
+
+  1.0.0.0
+
+
+  ## Authors
+
+  * **JVMH** 
+
+  Please follow github and join us!
+  Thanks to visiting me and good coding!
