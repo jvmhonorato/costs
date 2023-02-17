@@ -34,11 +34,17 @@ Here are the technologies used in this project.
   
   
 * To install the dependencies.
-  - npm install
+```bash
+$ npm install
+```
+  $ npm install
   
 * To run the project.
-  - BACKEND: npm run start
-  - FRONTEND: npm start
+```bash
+$ npm run start
+$ npm start
+```
+  
   
 ## How to use
 
