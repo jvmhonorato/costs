@@ -4,7 +4,7 @@
 Application to manage Projects costs
 
 
-## Technology 
+## Technologies
 
 Here are the technologies used in this project.
 
